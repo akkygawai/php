@@ -1,0 +1,34 @@
+<!-- Develop a PHP program to design a college admission form using MYSQL database.
+AdmissionForm.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>College Admission Form</h2>
+<form method="post" action="prog21.php">
+    <label>Name:</label><br>
+    <input type="text" name="name" required><br><br>  
+	
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+    
+    <label>Phone:</label><br>
+    <input type="text" name="phone" required><br><br>
+    
+    <label for="course">Course:</label><br>
+    <select name="course" id="course">
+        <option value="Computer Science">Computer Science</option>
+        <option value="Engineering">Engineering</option>
+        <option value="Mathematics">Mathematics</option>
+    </select><br><br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+
+AdmissionForm.php
